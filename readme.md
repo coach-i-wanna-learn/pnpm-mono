@@ -19,13 +19,14 @@ package-centric
 ```
 
 ## app-centric
-```
+```shell
 mkdir apps packages
 
 touch pnpm-workspace.yaml
 
 cd apps
 
+# 不要进行以来安装，默认使用 npm，我们改为 pnpm
 pnpm create qwik@latest
 
 ```
