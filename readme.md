@@ -55,6 +55,12 @@ pnpx tsc --init
 
 ```
 
+ pnpm add shared-ui --filter my-qwik-basic-starter --workspace
+```
+
+
+```
+
 pnpm --filter my-qwik-basic-starter start
 pnpm --filter shared-ui build
 ```

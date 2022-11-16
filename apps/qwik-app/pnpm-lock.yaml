@@ -1,0 +1,7 @@
+lockfileVersion: 5.3
+
+specifiers:
+  shared-ui: workspace:^1.0.0
+
+dependencies:
+  shared-ui: link:../../packages/shared-ui
