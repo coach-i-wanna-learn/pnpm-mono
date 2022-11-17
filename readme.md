@@ -44,18 +44,21 @@ cd packages/shared-ui
 
 pnpm init -y
 
-pnpm add --filter shared-ui react
+# pnpm add --filter shared-ui react
 pnpm add --filter shared-ui typescript -D
-pnpm add --filter shared-ui @types/react -D
+# pnpm add --filter shared-ui @types/react -D
 
 pnpx tsc --init
 
 ```
 
+放弃了 qwik 基层 react，原因是 useState 的状态管理无法兼容，缺少官方的教程
+> https://qwik.builder.io/tutorial/welcome/overview/
 
 ```
 
  pnpm add shared-ui --filter my-qwik-basic-starter --workspace
+ 
 ```
 
 
@@ -64,3 +67,4 @@ pnpx tsc --init
 pnpm --filter my-qwik-basic-starter start
 pnpm --filter shared-ui build
 ```
+
