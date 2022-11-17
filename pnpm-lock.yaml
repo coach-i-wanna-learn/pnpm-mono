@@ -17,12 +17,12 @@ importers:
       eslint-plugin-qwik: 0.13.3
       node-fetch: 3.2.10
       prettier: 2.7.1
-      shared-ui: workspace:*
+      shared-qwik-ui: workspace:*
       typescript: 4.8.4
       vite: 3.2.2
       vite-tsconfig-paths: 3.5.0
     dependencies:
-      shared-ui: link:../../packages/shared-ui
+      shared-qwik-ui: link:../../packages/shared-qwik-ui
     devDependencies:
       '@builder.io/qwik': 0.13.3
       '@builder.io/qwik-city': 0.0.122
@@ -38,7 +38,10 @@ importers:
       vite: 3.2.2
       vite-tsconfig-paths: 3.5.0_vite@3.2.2
 
-  packages/shared-ui:
+  packages/shared-qwik-ui:
+    specifiers: {}
+
+  packages/shared-react-ui:
     specifiers:
       '@types/react': ^18.0.25
       react: ^18.2.0

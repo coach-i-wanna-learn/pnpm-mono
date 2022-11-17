@@ -37,16 +37,14 @@ cd ..
 pnpm install
 
 
-mkdir -p packages/shared-ui
+mkdir -p packages/shared-qwik-ui
 
 
-cd packages/shared-ui
+cd packages/shared-qwik-ui
 
 pnpm init -y
 
-# pnpm add --filter shared-ui react
-pnpm add --filter shared-ui typescript -D
-# pnpm add --filter shared-ui @types/react -D
+pnpm add --filter shared-qwik-ui typescript -D
 
 pnpx tsc --init
 
@@ -57,7 +55,7 @@ pnpx tsc --init
 
 ```
 
- pnpm add shared-ui --filter my-qwik-basic-starter --workspace
+ pnpm add shared-qwik-ui --filter my-qwik-basic-starter --workspace
  
 ```
 
@@ -65,6 +63,6 @@ pnpx tsc --init
 ```
 
 pnpm --filter my-qwik-basic-starter start
-pnpm --filter shared-ui build
+pnpm --filter shared-qwik-ui build
 ```
 

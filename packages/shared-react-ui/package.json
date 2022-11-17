@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "shared-ui",
+  "name": "shared-react-ui",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
